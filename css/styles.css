@@ -5,8 +5,9 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&family=Inter:wght@300;400;500;600;700&display=swap");
 :root {
     --font-1: "Inter", sans-serif;
-    --font-2: "IBM Plex Serif", serif;
+    --font-2: "Inter", sans-serif;
     /* monospace
+    "IBM Plex Serif", serif;
      */
     --font-mono: Consolas, "Andale Mono", Courier, "Courier New", monospace;
 }
@@ -663,7 +664,7 @@ input[type="password"], textarea {
     
 }
 .mytextC{
-    text-align: right;
+    text-align: center;
 }
 
 
@@ -3034,11 +3035,11 @@ input[type="button"].btn--primary:focus {
 
 
 .myborder {
- width: 215px;
+ width: 315px;
  border: 1px solid #FFFFFF;
  border-radius: 15px;
-  margin-top: 2em;
-  margin-bottom: 0.em;
+  margin-top: 0.5px;
+  margin-bottom: 0px;
 }
 .myborderblack {
  width: 315px;
