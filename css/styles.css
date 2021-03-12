@@ -346,6 +346,7 @@ sup {
 
 img {
     border-style: none;
+  display: block;
 }
 
 /* ------------------------------------------------------------------- 
@@ -658,8 +659,6 @@ input[type="password"], textarea {
 .mytextR{
     text-align: justify;  /* For Edge */
     text-align-last: right;
-
-
     margin-right: 50px;
     
 }
@@ -3033,6 +3032,11 @@ input[type="button"].btn--primary:focus {
     ;
 }
 
+.mytextstart{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
 
 .myborder {
  width: 315px;
