@@ -347,6 +347,7 @@ sup {
 img {
     border-style: none;
   display: block;
+  box-shadow: 10px 5px 5px gray;
 }
 
 /* ------------------------------------------------------------------- 
@@ -664,6 +665,17 @@ input[type="password"], textarea {
 }
 .mytextC{
     text-align: center;
+}
+
+.textwrapL{
+    float: left;
+      margin: 150px;
+
+}
+.textwrapR{
+    float: right;
+   margin: 220px;
+
 }
 
 
