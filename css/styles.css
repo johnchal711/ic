@@ -654,13 +654,13 @@ input[type="password"], textarea {
 }
 .mytextL{
     text-align: left;
-     margin-left: 50px;
-     margin-right: 50px;
+     margin-left: 250px;
+     margin-right: 250px;
 }
 .mytextR{
     text-align: justify;  /* For Edge */
     text-align-last: right;
-    margin-right: 50px;
+    margin-right: 250px;
     
 }
 .mytextC{
@@ -677,6 +677,22 @@ input[type="password"], textarea {
    margin: 220px;
 
 }
+
+.leftimage {
+width:30%;
+display: inline-block;
+float: left;
+}
+
+.righttext {
+  margin-left: 30px;
+height: 50%;
+width: 30%;
+display: inline;
+}
+
+
+
 
 
 /* columns
