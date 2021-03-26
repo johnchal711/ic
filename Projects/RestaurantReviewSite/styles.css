@@ -1,0 +1,419 @@
+
+
+html {
+    font-size: 10px;
+    
+    background-color: white;
+}
+body  {
+   
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 6px;
+    margin-right: : 20px;
+}
+
+p {
+    font-size: 1.4rem;
+}
+button  {
+    cursor: pointer;
+}
+
+
+
+
+#map {
+    height: 80vh;
+    width: 100%;
+}
+
+.map-overlay{
+    position: relative;
+    width: 100%;
+    margin-bottom:2rem;
+    margin-top: 8rem;
+}
+
+#street-view{
+    order: 1;
+    width: 100%;
+    min-width: 320px;
+}
+#pano, 
+#street-view,
+.photo-big {
+    width: 50rem;
+    height: 40rem;
+}
+
+.info-wrapper{
+    width: 25rem;
+    background-color: #fff;
+    z-index: 1;
+    position: absolute;
+    top: 1%;
+    left: 3%;
+}
+
+#result-list {
+    width: 100%;
+    height: 87vh;
+    overflow: auto;
+    cursor: pointer;
+    overflow-x: hidden;
+    margin-top: 5px;
+    margin-bottom:10px;
+    font-size: 1.7rem;
+}
+
+.results-list{
+    display:flex;
+    padding: 10px 0;
+}
+
+.placeIcon{
+    height:80px;
+}
+
+.placeIcon img {
+    width: 92px;
+    height: 80px;
+    margin-right: 15px;
+}
+
+.placeDetails{
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#rating {
+    font-size: 13px;
+}
+.iw_table_row {
+    height: 18px;
+}
+.iw_attribute_name {
+    font-weight: bold;
+    text-align: right;
+}
+.iw_table_icon {
+    text-align: right;
+}
+#info-icon{
+    font-weight:bold;
+    text-align: center;
+}
+.profile-photo{
+    width: 35px;
+    height: 35px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right:20px;
+}
+.review-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.container{
+    display: flex;
+
+}
+
+.restaurant{   
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 1px;
+}
+
+
+#restaurant-info{
+   background-color: white;
+    padding: 30px;
+
+}
+.rating{
+    font-size:22px;
+    color:#FF0000;
+    margin-bottom: 20px;
+}
+
+.restaurant-reviews{
+    border-bottom: 3px solid #31adff;
+   
+}
+
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99; 
+  border: none; 
+  outline: none; 
+ background-color: red; 
+  color: white; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 10px; 
+  font-size: 18px; 
+}
+
+
+#myBtn:hover {
+  background-color: #555; 
+}
+
+.sort{
+    background-color: #31adff;
+    padding: 10px 0;
+    text-align: center;
+    
+}
+
+.sort label{
+    margin-right: 10px;
+}
+
+#info-rating{
+    color: #FF0000;
+    font-size: 25px;
+    text-align: center;
+    font-weight:600;
+    margin:0;
+}
+
+#info-url {
+    font-size: 20px;
+    text-align: center;
+    margin: 5px 0 10px 0;
+}
+
+
+
+#info-content .gm-style .photo{
+    height: 190px;
+    width: 300px;
+
+}
+
+/* add a review form */
+
+#add-review{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+#add-review input, #add-review textarea{
+    margin-bottom:20px;
+}
+
+#your-review{
+    height: 70px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#your-rating{
+    width: 50px;
+    height: 20px;
+    border: none;
+}
+
+.main-button{
+    background-color:#31adff;
+    padding: 10px;
+    font-size: 11px;
+    height: 40px;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.review-header{
+    display:flex;
+    justify-content: space-between;
+}
+
+#add-review label{
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+#add-review input{
+    height: 15px;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+#add-review textarea {
+    border: 1px solid #c8c9cb;
+}
+
+#info-content-small{
+    font-size:13px;
+}
+
+#info-icon-small .gm-style .photo{
+    width:50px;
+    height:35px;
+}
+#info-icon .photo{
+    min-width: 150px;
+    min-height: 80px;
+}
+
+#info-content-small .photo{
+    height: 35px;
+    width: 50px;
+}
+#info-rating-small{
+    color: yellow;
+    margin:0;
+}
+#info-url-small{
+    text-decoration: none;
+    color: grey;
+}
+
+
+#info-reviews{
+    color: black;
+    text-decoration:none;
+    font-size: 16px;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+}
+
+#info-reviews:hover{
+    color:grey;
+    text-decoration:underline;
+}
+.button-menu{
+    display:flex;
+    justify-content: flex-end;
+}
+.heading h2{
+    margin:0;
+}
+
+/*form info window */
+#add-rest{
+    width: 30rem;
+}
+
+#add-rest input{
+    height: 3rem;
+    width: 100%;
+    color: #000000;
+    max-width: 280px;
+    margin-right: 10px;
+    font-size: 12px;
+}
+
+#add-rest select{
+    height: 3rem;
+    width: 3rem;
+    margin: 10px;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+#btn-add-rest {
+    width: 100%;
+    height: 3rem;
+    background-color: #31adff;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+#photo {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.photo{
+    width: 100px;
+    height: 120px;
+    text-align: center;
+}
+.add-rate{
+    display: inline;
+    white-space: nowrap;
+
+}
+
+input[type="button"]{
+    width: 20px;
+    height: 20px;
+}
+
+/* media queries 
+
+Responsive Web Design - Media Queries
+Media query is a CSS technique introduced in CSS3.
+
+It uses the @media rule to include a block of CSS properties only if a certain condition is true.
+*/
+@media screen and (max-width:768px){
+    header {
+        background-color: white;
+        border: solid 2px grey;
+        min-height: 8rem;
+        text-align: center;
+        padding:1rem;
+    }
+    header h1 {
+        color: #d95c57;
+        font-size: 1.5rem;
+    }
+    #map{
+        height: 80vh;
+        margin-bottom: 10px;
+    }
+  
+    .info-wrapper{
+        position: relative;
+        top: 2%;
+        left: 0;
+        width: auto;
+        margin-right: 0;
+    }
+
+    .container, .map-overlay, header{
+        flex-direction: column;
+    }
+    .restaurant{
+        width:95%;
+        padding:7px;
+        margin:2px;
+    }
+    #restaurant-info {
+           background-color: white;
+        padding: 2px;
+    }
+    .map-wrapper{
+        padding:0;
+    }
+    .logo{
+        text-align: center;
+    }
+    #info-icon .photo{
+        display:none;
+    }
+
+}

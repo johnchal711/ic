@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+
+  <link rel="stylesheet" href="style.css">
+  <title>Board Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<img src="images/logo2.png" width="200" height="50">
+
+
+</head>
+<body>
+
+   
+
+   
+ <div class="roWS">
+   
+ <div class="info">
+
+   <h2> <SPAN class="Player1">Player 1 </SPAN> <SPAN class="Player2"> Player 2</SPAN> </h2>
+    <!--  <p class="PlayerActive"></p> -->
+     <p class="PlayerLife"></p>   
+      <p > <SPAN class="Player1Wepon"> </SPAN> - <SPAN class="Player2Wepon"> </SPAN></p> 
+       <p > <SPAN class="Player1Wstrength"> </SPAN> - <SPAN class="Player2Wstrength"> </SPAN></p> 
+       
+    <button id="Gameinfo">Game Info</button>
+   <!-- <button id="attack">Attack</button>-->
+    <button id="defend">Defend</button>
+     <button id="attack">Attack</button>
+     <button class="newGame">New Game</button>
+
+     <br></br>
+       <img src="images/ship1.jpg" width="300" height="300">
+
+
+  </div>
+
+<div class="wrapper" id="board">
+
+</div></div>
+
+  <script src="jquery-3.3.1.min.js"></script>
+ <script type="text/javascript" src="app.js"></script>
+ <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<div id="dialog" title="Game information">
+  <p>This is some useful information about the game. <br>To move the players please use the keyboard arrow keys.<br> Press UP arrow to move up. <br>Down arrow to move Down. <br>Left arrow to move left. <br>Rigth arrow to move rigth.<br> Press the return button to end your turn. 
+    <br><center><b>I hope you enjoy the game!!!</b></center> </p>
+</div>
+
+<div id="dialog2" title="Game Over">
+  <center><p class="Winer"> </p>
+  <p>Game OVER</p></center>
+</div>
+
+
+</body>
+</html>

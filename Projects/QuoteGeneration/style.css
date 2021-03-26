@@ -1,0 +1,28 @@
+
+.container {
+	width: 80%;
+	height: 95vh;
+	margin: 0 auto;
+	text-align: center;
+	
+  
+}   
+
+
+.container button {
+	margin-top: 70px;
+	font-size: 30px;
+
+}
+
+
+input {
+
+	font-size: 25px;
+
+
+}
+input:focus, input:hover {
+	background-color: #FFFF00;
+	cursor: pointer;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+
+<head>
+    <title>Your Restauarant's Review Portal</title>
+
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.2/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.4/semantic.min.js"></script>
+    <link rel="stylesheet" href="styles.css"> 
+
+
+</head>
+
+<body>
+  
+    <div class="ui sidebar vertical left inverted menu">
+        
+            <div class="info-wrapper">
+                <div id="options" class="sort">
+                    <label for="sort">Sort By Rating</label>
+                    <select name="sort" id="sort">
+                        <option value="all">All</option>
+                        <option value="one">1</option>
+                        <option value="two">2</option>
+                        <option value="three">3</option>
+                        <option value="four">4</option>
+                        <option value="five">5</option>
+                    </select>
+                </div>
+                <div id="result-list">
+                    <div id="results"></div>
+                </div>
+             </div>
+
+
+    </div>
+    <div class="ui basic icon top fixed menu">
+        <a id="toggle" class="item">
+            <i class="sidebar icon"></i>
+                Resturants
+            </a>
+               <h1 class="ui header"> Look for restaurants in your area.</h1>
+        </div>
+
+    <div class="pusher">
+
+            <div class="ui container">
+                <div class="map-overlay">
+                    <div id="map"></div>
+                </div>
+            </div>  
+
+
+
+
+
+                <div id="information">
+                        <div id="info-icon"></div>
+                        <h3 id="info-rating"></h3>
+                        <div class="extra-details">
+                            <div id="info-url"></div>
+                            <div id="info-address"></div>
+                            <div id="info-phone"></div>
+                            <div id="iw-website"></div>
+                            <div id="iw-open"></div>
+                            <a href="#restaurant-info" id="info-reviews"></a>
+                        </div>
+                </div>
+                
+                <div id="informationnew-restaurant">
+                        <form id="add-rest" action="post">
+                        </form>
+                </div>
+                </div> 
+                <div id="restaurant-info">
+                    <div class="container"> 
+                        <div id="street-view">
+                            <div id="streetview-window">
+                                <div id="pano" width="150px" height="250px"></div>
+                            </div>
+                            <div id="photo"></div>
+                             <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                        </div>
+                       
+                        <div id="see-photo"></div>
+
+                        <div class="restaurant">
+                            <div id="see-photo"></div>
+                            <div class="button-menu"></div>
+                            <h2 class="restaurant-name" id="name"></h2>
+                            <p class="restaurant-details" id="address"></p>
+                            <p class="restaurant-details" id="telephone"></p>
+                            <p class="restaurant-details" id="website"></p>
+                            <div class="review-header">
+                                <h3 class="title">Reviews</h3>
+
+
+                        </div>
+                            <div id="reviews"></div>
+                            <div id="show-message"></div>
+                            <button class="main-button" id="add-review-button" onclick="createReviewWindow()">Add a Review</button>
+                            <div id="review-window"></div>
+                            <button type="submit" id="review-submit" class="main-button" onclick="submitReview()">Add Review</button>
+                        </div>
+
+                    </div> 
+
+                    
+                </div>
+
+           
+
+
+
+
+
+
+
+
+    </div>
+
+<script>
+    $('#toggle').click(function(){
+        $('.ui.sidebar').sidebar('toggle');
+     });
+</script>
+  <script src="app.js"></script> 
+    
+
+
+
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDA-O3o81QC1XjY0Nppz85Go_5z0928zco&libraries=places&callback=initMap" async defer></script>
+
+ 
+
+   
+
+<!--AIzaSyDA-O3o81QC1XjY0Nppz85Go_5z0928zco ->>
+
+    
+</body>
+
+</html>

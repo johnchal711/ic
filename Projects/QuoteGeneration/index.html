@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<head>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="style.css">
+	<title>Quote generator</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Quote Generator</h1>
+		<br><b> (Part 2)</b></br>
+
+			<div class="btn-big-group">
+               
+                <input type="button" id="New" name="buttonsmenu" class="btn-big" value="New" onclick="getmenu(this)">
+                <input type="button" id="Quit" name="buttonsmenu" class="btn-big" value="Exit" onclick="getmenu(this)">
+            </div>
+
+		<BR> <h3>Please Select number of quotes to be generated.</h3></BR>
+
+
+
+    <div class="btn-small-group" role="group">
+                <input type="button" name="button" id="one" value='1' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="two" value='2' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="three" value='3' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="four" value='4' class="btn-small" onclick="getValue(this)">
+                <input type="button" name="button" id="five" value='5' class="btn-small" onclick="getValue(this)">
+            </div>
+   
+            <div class="btn-big-group">
+                <h3>Choose quote generator</h3>
+                <input type="button" id="generatorOne" name="buttonsTwo" class="btn-big" value="1" onclick="getQuote(this)">
+                <input type="button" id="generatorTwo" name="buttonsTwo" class="btn-big" value="2" onclick="getQuote(this)">
+            </div>
+
+
+
+		<div id="quote"></div>
+
+		
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

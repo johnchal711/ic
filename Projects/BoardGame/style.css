@@ -1,0 +1,227 @@
+body {
+  margin: 40px;
+  /*background-color: lightblue;*/
+    }
+
+
+.info {
+  float: right;
+  width: 50%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(10,50px);
+  grid-gap: 0px;
+  background-color: #fff;
+  color: #444;
+}
+
+
+.box {
+  background-color: #444;
+  color: #fff;
+  padding: 0px;
+  font-size: 150%;
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-size: contain;
+}
+
+.PlayerActive{
+  font-weight: bold;
+}
+
+
+.water {
+  background-image: url("images/water.png")
+}
+
+
+
+.player1 {
+  background-image: url("images/firstPlayer1.png")
+
+}
+
+.player1W1 {
+  background-image: url("images/firstPlayer1w1.png")
+
+}
+
+.player1W2 {
+  background-image: url("images/firstPlayer1w2.png")
+
+}
+
+.player1W3 {
+  background-image: url("images/firstPlayer1w3.png")
+
+}
+
+.player1W4 {
+  background-image: url("images/firstPlayer1w4.png")
+
+}
+
+.player2 {
+  background-image: url("images/firstPlayer2.png")
+
+}
+
+
+.player2W1 {
+  background-image: url("images/firstPlayer2w1.png")
+
+}
+
+
+.player2W2 {
+  background-image: url("images/firstPlayer2w2.png")
+
+}
+
+.player2W3 {
+  background-image: url("images/firstPlayer2w3.png")
+
+}
+
+.player2W4 {
+  background-image: url("images/firstPlayer2w4.png")
+
+}
+
+
+.wepon1 {
+  background-image: url("images/w1a.png")
+
+}
+
+
+
+.wepon2{
+  background-image: url("images/w2a.png")
+
+}
+
+
+
+.wepon3 {
+  background-image: url("images/w3a.png")
+
+}
+
+
+
+.wepon4 {
+  background-image: url("images/w4a.png")
+
+}
+
+
+
+.land {
+  background-image: url("images/land.png")
+
+}
+
+
+.highlightG {
+  background: green;
+  color: white;
+  margin: 0px;
+  padding: 20px;
+  width: 30px;
+
+
+}
+.highlightR {
+  background: red;
+  color: white;
+  margin: 0px;
+  padding: 20px;
+  width: 30px;
+}
+
+.Player1Wepon{
+  margin: 0px;
+   width: 30px;
+}
+
+.Player2Wepon{
+   margin: 0px;
+   width: 30px;
+}
+
+.Player1Wstrength{
+   margin: 0px;
+   width: 30px;
+}
+
+}
+
+.Player2Wstrength{
+   margin: 0px;
+   width: 30px;
+}
+
+
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+.ui-widget-content {
+    background: CC99FF;
+  /*Change the dialog border color here*/
+    border: 1px solid #CC99FF;
+    color: #222222;
+}
+
+.ui-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+#success {
+    padding: 0;
+    margin: 0; 
+}
+
+.ui-dialog .ui-dialog-content {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    overflow: auto;
+    position: relative;
+    padding: 0 !important;
+     zoom: 1;
+
+}
+
+.ui-widget-header {
+  /*Change the Header color here*/
+    background: #CC99FF;
+    border: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ui-dialog .ui-dialog-titlebar {
+    padding: 0.1em .5em;
+    position: relative;
+        font-size: 1em;
+}
+
+
+.ui-button-icon-only {
+        width: 2em;
+        box-sizing: border-box;
+        text-indent: -9999px;
+        white-space: nowrap;
+    }
+
